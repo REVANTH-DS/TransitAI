@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Python cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Secrets
+# =========================
+.env
+*.env
+.streamlit/secrets.toml
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Large training datasets
+# =========================
+data/processed/model_data.csv
+data/processed/model_data_v2.csv
+
+data/processed/train.csv
+data/processed/train_v2.csv
+
+data/processed/test.csv
+data/processed/test_v2.csv
+
+data/processed/validation.csv
+data/processed/validation_v2.csv
+
+data/processed/mta_features.csv
+data/processed/mta_hourly_demand.csv
+
+# =========================
+# Analysis outputs
+# =========================
+data/processed/error_by_hour.csv
+data/processed/error_by_route.csv
+data/processed/error_peak_vs_nonpeak.csv
+data/processed/error_weekday_weekend.csv
+data/processed/largest_prediction_errors.csv
+
+# =========================
+# Large/raw datasets
+# =========================
+data/raw/
+
+# =========================
+# Not required for deployment
+# =========================
+notebooks/
+docs/
+tests/
